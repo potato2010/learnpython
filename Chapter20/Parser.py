@@ -1,4 +1,5 @@
-import sys
+#!/usr/bin/python
+# coding=utf-8
 import re
 from handlers import *
 from util import *
@@ -7,6 +8,7 @@ from rules import *
 
 class Parser:
     """
+    分析器
     A Parser reads a text file, applying rules and controlling a
     handler.
     """
